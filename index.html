@@ -1,67 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Acyléole</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="bg-white navbar navbar-expand-lg navbar-light sticky-top"> 
-                <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="200"></a> 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler53" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="navbar-toggler-icon"></span> 
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggler53">
-                    <ul class="navbar-nav nav"> 
-                        <li class="nav-item active"> 
-                            <a class="nav-link" href="index.html">Accueil</a> 
-                        </li>                         
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="projet.html">Le Projet</a> 
-                        </li>                         
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main role="main">
-            <section class="mt-auto">
-                <div class="container">
-                    <div class="jumbotron">
-                        <div class="container">
-                            <h1 class="jumbotron-heading text-center">Bienvenue sur le site d'Acyléole</h1>
-                            <p class="lead text-center">Acyléole est une société par action simplifiée créée par des habitants d&apos;Acigné et ses environs. Elle a pour objectif de développer les économies d&apos;énergie et les énergies renouvables citoyennes sur le territoire.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="text-muted" style="background-color: #ff9f00;">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h3>Contact</h3>
-                        <hr>
-                    </hr>
-                    <p>06 86 18 14 18<br>contact@acyleole.fr</p>
-                </div>
-                <div class="col-8">
-</div>
-                <p class="float-right">© Acyléole SAS</p>
-            </div>
+---
+layout: home
+---
+
+<section class="mt-auto">
+  <div class="bg-image"
+       style="background-image: url('{{ "/assets/images/windmill-3322529_1920.jpg" | relative_url }}'); 
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 400px">
+    <div class="d-flex justify-content-center align-items-center h-100" >
+      <div class="d-flex p-1" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="text-white">
+          <h1 class="mb-3">Un parc éolien citoyen à Acigné</h1>
+          <h6 class="mb-3">C'est l'objectif que se sont fixés Acyléole et les membres de Courants Alternatifs!</h6>
         </div>
-    </footer>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center h-100 mt-4">
+    <div class="col-2"></div>
+    <div class="col">
+      <!-- <div class="row">  
+        <div class="p-2 col align-self-center text-justify">
+        En 2016, un projet de parc éolien est annoncé à Acigné, commune de Rennes Métropole. 
+        Le porteur de ce projet est une société de Vern-sur-Seiche, P&T Technologie.
+        </div>
+        <div class="p-4 col-3 align-self-center text-center">
+          <img src="{{ "/assets/images/windmill-3322529_1920.jpg" | relative_url }}"/>
+        </div>
+      </div> -->
+      <div class="row">  
+        <div class="p-3 col-3 align-self-center text-center">
+          <img src="{{ "/assets/images/eoliennes-acigne-panneau-2.jpg" | relative_url }}"/>
+        </div>
+        <div class="p-3 col align-self-center text-justify">
+          En 2016, un projet de parc éolien est annoncé à Acigné, commune de Rennes Métropole. 
+          Le porteur de ce projet est une société de Vern-sur-Seiche, P&T Technologie.<br><br>
+          Membres de l'association locale Courants Alternatifs, nous nous intéressons à la 
+        production d'énergies renouvelables et engageons les habitants à participer avec nous 
+        aux réunions de concertation organisées par la société porteuse du projet.
+        </div>
+      </div>
+      <div class="row">  
+        <div class="p-3 col align-self-center text-justify">
+        Dès le départ, nous souhaitons fortement que ce projet devienne un projet citoyen. 
+        C'est à dire un projet appartenant aux habitants et au collectivités publiques du 
+        territoire. Une participation majoritaire à son financement et à sa gouvernance permet
+        d'agir au plus près des besoins locaux. En France, le premier parc éolien citoyen a 
+        été inauguré en 2014, à Béganne (Morbihan). Nous avons participé à sa réalisation. 
+        </div>
+        <div class="p-3 align-self-center col-4">
+          <a href="{{ "/assets/images/acignolais-12-2016.png" | relative_url }}" data-toggle="lightbox">
+            <img data-toogle="lightbox" src="{{ "/assets/images/acignolais-12-2016.png" | relative_url }}"/>
+          </a>
+        </div>
+      </div>
+      <div class="row">  
+        <div class="p-3 align-self-center col-4">
+          <a href="{{ "/assets/images/acignolais-06-2018.png" | relative_url }}" data-toggle="lightbox">
+            <img src="{{ "/assets/images/acignolais-06-2018.png" | relative_url }}"/>
+          </a>
+        </div>
+        <div class="p-3 col align-self-center text-justify">
+        En 2018, c'est le démarrage du Collectif pour un projet citoyen éolien à Acigné.
+        </div>
+      </div>
+      <div class="row">  
+        <div class="p-3 col align-self-center text-justify">  
+        En 2019, nous créons la SAS Acyléole, société par actions simplifiée. Cette société
+        permet aux citoyens d'entrer au capital du parc éolien aux côtés des collectivités
+        publiques afin qu'il devienne un parc éolien citoyen. 
+        </div>
+        <div class="p-3 align-self-center col-4">
+          <img src="{{ "/assets/images/associes.jpg" | relative_url }}"/>
+        </div>
+      </div>
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <!--
+  <div class="row align-items-center h-100 mt-3">
+      <div class="col-2"></div>
+      <div class="col">
+        <p class="text-justify">
+          Un collectif s'est constitué pour réfléchir à la participation citoyenne à
+          ce projet de parc éolien. Suite à plusieurs réunions, il a été décidé de créer
+          une société par actions simplifiée, la SAS Acyléole, pour permettre aux habitants
+          de financer le parc avec les collectivités.
+        </p>
+      </div>
+      <div class="col-3">
+        <img src="{{ "/assets/images/collectif.jpg" | relative_url }}"/>
+      </div>
+      <div class="col-2"></div>
+  </div>
+  -->
+</section>
